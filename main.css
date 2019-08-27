@@ -1,0 +1,215 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: rgba(107, 105, 119, 0.9);
+  }
+  /*--- navigation bar ---*/
+  .navbar {
+    background: rgba(107, 105, 119, 0.7);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    position: fixed; /* Set the navbar to fixed position */
+  }
+  .nav-link,
+  .navbar-brand {
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+  }
+  .navbar-brand a{
+  font-family: 'Lora', serif;
+  left:10%;
+  }
+  .navbar-brand:hover {
+    color: rgb(90, 90, 90);
+  }
+
+  /*---.nav-link {
+    margin-right: 1em !important;
+  } ---*/
+
+  .nav-link:hover {
+    color: rgb(90, 90, 90);
+  }
+  .navbar-collapse {
+    justify-content:space-around;
+  }
+
+  .header {
+    background: rgba(107, 105, 119, 0.9);
+    background-image: url(1.jpg);
+    background-repeat: no-repeat;
+    background-size: 50% 100%;
+    background-position: right top;
+  }
+
+  /*.overlay {
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(107, 105, 119, 0.9);
+  }*/
+
+  .description {
+    left: 25%;
+    position: absolute;
+    top: 60%;
+    transform: translate(-50%, -55%);
+    text-align: center;
+  }
+  .description h2 {
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-family: 'Lora';
+  }
+
+.description p {
+  color: rgb(48, 48, 48);
+  font-size: 1 rem;
+  line-height: 1.5;
+  font-family: 'Montserrat', sans-serif;
+}
+
+  .description button {
+    border:1px solid rgb(112, 112, 112);
+    background:rgb(247, 247, 247);
+    border-radius: 40px;
+    color:rgb(112, 112, 112);
+    margin-top: 20px;
+    padding: 10px 70px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .description button:hover {
+    border:1px solid #fff;
+    background:#fff;
+    color:rgb(112, 112, 112);
+  }
+.shop{
+  background: rgba(107, 105, 119, 0.7);
+}
+.shop p{
+  margin-top: 5px;
+}
+
+.text-center{
+    margin: 60px;
+}
+  .features {
+    margin: auto;
+    padding: 1em;
+    position: relative;
+    text-align: center;
+    color: rgb(85, 77, 77);
+  }
+  .feature-title {
+    color: rgb(250, 111, 111);
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  .features img {
+    -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    margin-bottom: 16px;
+  }
+
+  .features .form-control,
+  .features input {
+      border-radius: 1 rem;
+  }
+  .features .btn {
+    background-color: #fa8c86;
+    border: 1px solid #fa8c86;
+    color: #fff;
+    margin-top: 20px;
+  }
+  .features .btn:hover {
+    background-color: #333;
+    border: 1px solid #333;
+  }
+  .aboutus { 
+    padding-top: 30px;
+  }
+   /* margin: 0
+
+    -webkit-animation: colorchange 5s infinite; 
+    animation: colorchange 5s infinite;
+    }
+    @-webkit-keyframes colorchange {
+    0%  {background: rgba(107, 105, 119, 0.9);}
+    25%  {background: rgba(107, 105, 119, 0.7);}
+    50%  {background: rgba(107, 105, 119, 0.5);}
+    75%  {background: rgba(107, 105, 119, 0.2);}
+    100% {background: rgba(107, 105, 119, 0.9);}
+  }*/
+
+.aboutus .row{
+    margin-top: 40px;
+}
+.aboutus p{
+  margin-top: 30px;
+  padding-top: 20px;
+}
+
+.delivery{
+  padding-top: 30px;
+  width: 105%;
+}
+
+.delivery .row{
+  margin-top: 40px;
+}
+.delivery p{
+  color:rgb(226, 226, 226);
+  margin-top: 30px;
+  padding-top: 20px;
+}
+
+  .subscribe {
+    margin-top: 50px; 
+  }
+
+  .describe {
+    text-align: center;
+    margin-top: 40px;
+  }
+
+  .page-footer {
+    background-color: rgb(87, 87, 87);
+    color: rgb(216, 216, 216);
+    padding: 20px 0 10px;
+  }
+  .footer-copyright {
+    color: rgb(46, 46, 46);
+  }
+  .font-weight-bold{
+      margin-bottom: 20px;
+  }
+
+
+  @media (max-width: 575.98px) {
+    .description {
+      left: 0;
+      padding: 0 15px;
+      position: absolute;
+      top: 10%;
+      transform: none;
+      text-align: center;
+    }
+    
+    .description h1 {
+      font-size: 2em;
+    }
+    
+    .description p {
+      font-size: 1.2rem;
+    }
+    
+    .features {
+      margin: 0;
+    }
+  }
